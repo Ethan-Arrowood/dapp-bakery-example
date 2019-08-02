@@ -1,0 +1,16 @@
+{
+  "name": "bakery",
+  "version": "1.0.0",
+  "description": "Solidity & Web3 DApp Example",
+  "main": "script.js",
+  "scripts": {
+    "compile": "solcjs --abi --bin Bakery.sol",
+    "start": "node script.js"
+  },
+  "author": "Ethan Arrowood",
+  "license": "MIT",
+  "dependencies": {
+    "solc": "^0.5.3",
+    "web3": "^1.2.0"
+  }
+}
